@@ -1,0 +1,112 @@
+.conti{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  padding-top:20px;
+}
+.title{
+  display:flex;
+  font-size:50px;
+  margin-bottom:25px;
+  justify-content:center;
+  font-family:"Poetsen One",sans-serif; ;
+  font-optical-sizing:auto;
+}
+.free{
+  display:flex;
+  margin-bottom:20px;
+  font-size:20px;
+  justify-content: center;
+  font-family:"Jaro",sans-serif; ;
+  font-optical-sizing:auto;
+
+}
+.free-sub{
+  color:red;
+  font-family:"Jaro",sans-serif; ;
+  font-optical-sizing:auto;
+padding:0px 2px 0px 2px;
+}
+.talk{
+  display:flex;
+  font-size:20px;
+  letter-spacing:0.8px;
+  justify-content: center;
+  font-family:"Reddit sans",sans-serif; ;
+  font-optical-sizing:auto;
+  padding:0px 3px 0px 8px;
+flex-direction:column;
+}
+.talk-sub{
+  font-weight:bold;
+  font-family:"Reddit sans",sans-serif; ;
+  font-optical-sizing:auto;
+}
+.button-cont{
+  display:flex;
+  justify-content:center;
+  margin-bottom:25px;
+  margin-top:25px;
+}
+.button-case{
+  padding:10px 30px;
+  background-color:black;
+  border-style:solid;
+  border-color:white;
+  color:white;
+  font-size:30px;
+  border-width:1px;
+  font-family:"Poetsen One",sans-serif; ;
+  font-optical-sizing:auto;
+  box-shadow: 0.5px 1px 30px rgba(252, 1, 1, 0.514);
+}
+.button-case:hover{
+background-color:white;
+color:black;
+}
+.button-case:active{
+  background-color:white;
+  color:red;
+  opacity:0.6;
+}
+.title-2{
+  display:flex;
+  font-size:25px;
+  margin-bottom:25px;
+  justify-content:center;
+  padding-left:10px;
+  font-family:"Jaro",sans-serif; ;
+  font-optical-sizing:auto;
+}
+.title2-sub{
+  color:red;
+  font-family:"Jaro",sans-serif; ;
+  font-optical-sizing:auto;
+padding:0px 2px 0px 2px;
+}
+.pic-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  row-gap:37px;
+  column-gap:20px;
+  place-items: center;
+}
+img{
+  height:600px;
+  width:350px;
+}
+.img-div{
+  border-style:solid;
+  border-color:white;
+  border-width:5px;
+}
+.pic-cont{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+@media(max-width:400px){
+  .pic-grid{
+    grid-template-columns:1fr;
+  }
+}
